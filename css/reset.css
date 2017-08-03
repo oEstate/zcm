@@ -1,0 +1,101 @@
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img,
+header {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+fieldset,
+img {
+  border: none;
+}
+img {
+  display: block;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+ul,
+ol {
+  list-style: none;
+}
+input {
+  padding-top: 0;
+  padding-bottom: 0;
+  font-family: "SimSun", "宋体";
+}
+input::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+select,
+input {
+  vertical-align: middle;
+}
+select,
+input,
+textarea {
+  font-size: 12px;
+  margin: 0;
+}
+input[type="text"],
+input[type="password"],
+textarea {
+  outline-style: none;
+  -webkit-appearance: none;
+}
+textarea {
+  resize: none;
+}
+input,
+textarea {
+  background: none;
+  border: none;
+}
+table {
+  border-collapse: collapse;
+}
+body {
+  color: #333;
+  font: 12px/20px "SimSun", "宋体", "Arial Narrow", HELVETICA;
+  background: #fff;
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover,
+a:active,
+a:focus {
+  color: #ff8400;
+  text-decoration: underline;
+}
+html {
+  font-size: 100px;
+}
